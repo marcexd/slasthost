@@ -6,7 +6,7 @@ if (!isset($_GET['page'])) {
 
 ini_set('display_errors','Off');
 try {
-	$db = new PDO('mysql:host=localhost;dbname=csgo', 'root', 'Tome', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+	$db = new PDO('mysql:host=localhost;dbname=slasthost', 'slasthost', 'el92yd77rm', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 } catch (PDOException $e) {
 	exit($e->getMessage());
 }
